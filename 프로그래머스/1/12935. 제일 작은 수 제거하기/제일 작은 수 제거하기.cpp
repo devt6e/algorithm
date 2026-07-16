@@ -9,7 +9,7 @@ vector<int> solution(vector<int> arr) {
     int s = 999999;
     for(int i : arr)
         if(i < s) s = i;
-
+    //vector.min_element 라는게 있다
     for(vector<int>::iterator iter = answer.begin(); iter != answer.end(); iter++)
     {
         if(*iter == s)
